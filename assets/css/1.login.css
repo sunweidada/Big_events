@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+body,html{
+    height: 100vh;
+    background:url('../images/login_bg.jpg') no-repeat ;
+    background-size: cover;
+}
+.login-reg-box{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 400px;
+    height: 320px;
+    border-radius: 4px;
+    transform: translate(-50%,-50%);
+    background-color: #fff;
+}
+.login-reg-box h4{
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+.reg-wrap{
+    display: none;
+}
