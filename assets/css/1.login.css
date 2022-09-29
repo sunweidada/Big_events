@@ -26,3 +26,11 @@ body,html{
 .reg-wrap{
     display: none;
 }
+.layui-form{
+    padding: 20px;
+}
+.login-wrap,
+.reg-wrap
+{
+    text-align: right;
+}
